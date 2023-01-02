@@ -12,7 +12,7 @@ sonarqubeScanner({
 	    'sonar.language':'js',
             'sonar.sourceEncoding':'UTF-8',
             'sonar.sources': '.',
-            'sonar': 'node sonar-project.js'
+            'sonar': 'node sonar-project.js' ,'test': "echo 'Error: no test specified' && exit 1"
 
 	  //'sonar.tests': 'specs',
           //'sonar.inclusions' : 'src/**'
